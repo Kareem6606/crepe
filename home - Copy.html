@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <!-- script -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City Crepe</title>
+    <!-- css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="home - Copy.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Blaka&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <p class="text-logo">City</p><img class="img-logo" src="logo.png" alt="">
+                <p class="text-logo">Crepe</p>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Application</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Other
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-item text-right">التنقل</li>
+                            <li><a class="dropdown-item" href="#">سيتي كريب</a><a href="" class="dropdown-item">علي
+                                    كيفك</a><a href="" class="dropdown-item">الميكس</a><a href=""
+                                    class="dropdown-item">سي فود</a><a href="" class="dropdown-item">بطاطس</a><a href=""
+                                    class="dropdown-item">سوري</a><a href="" class="dropdown-item">كريب الطاقه</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">الفروع</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar -->
+
+    <!-- slider -->
+    <div class="ssl">
+        <h1 class="ssll">ملوك الكريب</h1>
+        <h1>15 9 77</h1>
+    </div>
+    <!-- slider -->
+
+
+    <!-- cards -->
+    <!--========= start city crepe ==========-->
+    <div class="container py-5">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+            <a class="link-show-all" href="">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
+                    <path
+                        d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0m3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z" />
+                </svg>
+                <span class="text-left link-show-all">عرض الكل</span>
+            </a>
+            <h1 class="text-end"">ستي كريب</h1>
+        </div>
+        <div class=" row roow-cols-1 row-cols-md-4 g-4 py-1">
+                <!-- card 1 -->
+                <div class="col">
+                    <div class="card" data-aos="fade-up">
+                        <img src="photo/crispy.jpg" class="card-img-top" alt="كرسبي">
+                        <div class="card-body">
+                            <h5 class="card-title"><img class="spicy" src="photo/food.png" alt="">كرسبي</h5>
+                            <p class="card-text"></p>
+                        </div>
+                        <div class="d-flex justify-content-around mb-4">
+                            <h3 class="card-price">60 <sub>EGP</sub></h3>
+                            <button type="button" class="btn btn-light" data-toggle="modal"
+                                data-target="#cardModal1">Details</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- modal -->
+                <div class="modal fade" id="cardModal1" tabindex="-1" role="dialog" aria-labelledby="cardModal1Label"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="cardModal1Label">كرسبي</h5>
+                            </div>
+                            <div class="modal-body">
+
+                                <h3 style="text-align: center;">مكونات الكريب</h3>
+                                <ol>
+                                    <li>الكرسبي --|</li>
+                                    <li>كاتشب ,مايونيز ,باربيكيو (اختياري) --|</li>
+                                    <li>نوع الجبنة (اختياري) --|</li>
+                                </ol>
+                                <fieldset class="box-opption">
+                                    <br><br>
+                                    <legend>الاضافات</legend>
+                                    <br>
+                                    <div class="opption">
+                                        <label for="draft" class="status:text-sky-500">
+                                            <input id="draft" class="status" type="radio" name="status" checked />
+                                            <span>موتواريلا</span>
+                                        </label>
+                                    </div>
+
+                                    <div class="opption">
+                                        <label for="review" class="status:text-sky-500">
+                                            <input id="review" class="status" type="radio" name="status" />
+                                            <span>ساده</span>
+                                        </label>
+                                    </div>
+
+                                    <div class="opption">
+                                        <label for="published" class="status:text-sky-500">
+                                            <input id="published" class="status" type="radio" name="status" />
+                                            <span>رومي</span>
+                                        </label>
+                                    </div>
+
+                                    <div class="opption">
+                                        <label for="archived" class="status:text-sky-500">
+                                            <input id="archived" class="status" type="radio" name="status" />
+                                            <span>مكس جبن</span>
+                                        </label>
+                                    </div>
+
+                                    <div class="opption">
+                                        <label for="extraOption" class="status:text-sky-500">
+                                            <input id="extraOption" class="status" type="radio" name="status" />
+                                            <span>خضروات</span>
+                                        </label>
+                                    </div>
+                                    <div class="opption-price">
+                                        <div class="hidden draft-block">
+                                            <h3 class="card-price">60 <sub>EGP</sub></h3>
+                                        </div>
+                                        <div class="hidden review-block">
+                                            <h3 class="card-price">57 <sub>EGP</sub></h3>
+                                        </div>
+                                        <div class="hidden published-block">
+                                            <h3 class="card-price">59 <sub>EGP</sub></h3>
+                                        </div>
+                                        <div class="hidden archived-block">
+                                            <h3 class="card-price">70 <sub>EGP</sub></h3>
+                                        </div>
+                                        <div class="hidden extraOption-block">
+                                            <h3 class="card-price">58 <sub>EGP</sub></h3>
+                                        </div>
+                                    </div>
+                                    <script src="script.js"></script>
+                                </fieldset>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end card 1 -->
+
+                <!-- card 2 -->
+                <div class="col">
+                    <div class="card" data-aos="fade-up">
+                        <img src="photo/pane.jpg" class="card-img-top" alt="بانيه">
+                        <div class="card-body">
+                            <h5 class="card-title">بانيه</h5>
+                            <p class="card-text"></p>
+                        </div>
+                        <div class="d-flex justify-content-around mb-4">
+                            <h3 class="card-price">55 <sub>EGP</sub></h3>
+                            <button type="button" class="btn btn-light" data-toggle="modal"
+                                data-target="#cardModal2">Details</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- modal -->
+                <div class="modal fade" id="cardModal2" tabindex="-1" role="dialog" aria-labelledby="cardModal1Label"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="cardModal1Label">كرسبي</h5>
+                            </div>
+                            <div class="modal-body">
+
+                                <h3 style="text-align: center;">مكونات الكريب</h3>
+                                <ol>
+                                    <li>الكرسبي --|</li>
+                                    <li>كاتشب ,مايونيز ,باربيكيو (اختياري) --|</li>
+                                    <li>نوع الجبنة (اختياري) --|</li>
+                                </ol>
+                                <h3 style="text-align: center;">ما هو الكرسبي ؟</h3>
+                                <p>برجر الدجاج الكرسبي هي وجبة يتميز فيها لحم الدجاج الناعم والمتبل، والذي يُطهى بحيث
+                                    يحصل على طبقة خارجية مقرمشة.</p>
+                                <h3>الاضافات والاسعار</h3>
+                                <fieldset class="box-opption">
+                                    <br><br>
+                                    <legend>الاضافات</legend>
+                                    <br>
+                                    <div class="opption">
+                                        <label for="draft" class="status:text-sky-500">
+                                            <input id="draft" class="status" type="radio" name="status" checked />
+                                            <span>موتواريلا</span>
+                                        </label>
+                                    </div>
+
+                                    <div class="opption">
+                                        <label for="review" class="status:text-sky-500">
+                                            <input id="review" class="status" type="radio" name="status" />
+                                            <span>ساده</span>
+                                        </label>
+                                    </div>
+
+                                    <div class="opption">
+                                        <label for="published" class="status:text-sky-500">
+                                            <input id="published" class="status" type="radio" name="status" />
+                                            <span>رومي</span>
+                                        </label>
+                                    </div>
+
+                                    <div class="opption">
+                                        <label for="archived" class="status:text-sky-500">
+                                            <input id="archived" class="status" type="radio" name="status" />
+                                            <span>مكس جبن</span>
+                                        </label>
+                                    </div>
+
+                                    <div class="opption">
+                                        <label for="extraOption" class="status:text-sky-500">
+                                            <input id="extraOption" class="status" type="radio" name="status" />
+                                            <span>خضروات</span>
+                                        </label>
+                                    </div>
+                                    <div class="opption-price">
+                                        <div class="hidden draft-block">
+                                            <h3 class="card-price">60 <sub>EGP</sub></h3>
+                                        </div>
+                                        <div class="hidden review-block">
+                                            <h3 class="card-price">57 <sub>EGP</sub></h3>
+                                        </div>
+                                        <div class="hidden published-block">
+                                            <h3 class="card-price">59 <sub>EGP</sub></h3>
+                                        </div>
+                                        <div class="hidden archived-block">
+                                            <h3 class="card-price"> <sub>EGP</sub></h3>
+                                        </div>
+                                        <div class="hidden extraOption-block">
+                                            <h3 class="card-price">58 <sub>EGP</sub></h3>
+                                        </div>
+                                    </div>
+                                </fieldset>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end card 2 -->
+
+                <!-- card 3 -->
+                <div class="col">
+                    <div class="card" data-aos="fade-up">
+                        <img src="photo/strips.jpg" class="card-img-top" alt="ستربس">
+                        <div class="card-body">
+                            <h5 class="card-title"><img src="photo/food.png" alt="" class="spicy">ستربس</h5>
+                            <p class="card-text"></p>
+                        </div>
+                        <div class="d-flex justify-content-around mb-4">
+                            <h3 class="card-price">75 <sub>EGP</sub></h3>
+                            <button class="btn btn-light">Details</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- end card 3 -->
+
+                <!-- card 4 -->
+                <div class="col">
+                    <div class="card" data-aos="fade-up">
+                        <img src="photo/katyuosha.jpg" class="card-img-top" alt="كتيوشه">
+                        <div class="card-body">
+                            <h5 class="card-title"><img class="spicy" src="photo/food.png" alt="">كتيوشه</h5>
+                            <p class="card-text"></p>
+                        </div>
+                        <div class="d-flex justify-content-around mb-4">
+                            <h3 class="card-price">60 <sub>EGP</sub></h3>
+                            <button class="btn btn-light">Details</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- end card 4 -->
+
+        </div>
+    </div>
+    <!-- end city crepe -->
+    <!--================ start ala kifak =================-->
+
+    <div class="container py-5">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+            <a class="link-show-all" href="">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
+                    <path
+                        d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0m3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z" />
+                </svg>
+                <span class="text-left link-show-all">عرض الكل</span>
+            </a>
+            <h1 class="text-end"">علي كيفك</h1>
+        </div>
+        <div class=" row roow-cols-1 row-cols-md-4 g-4 py-5">
+                <div class="col">
+                    <div class="card" data-aos="fade-up">
+                        <img src="photo/monestar.jpg" class="card-img-top" alt="وحش">
+                        <div class="card-body">
+                            <h5 class="card-title">الوحش</h5>
+                            <p class="card-text"></p>
+                        </div>
+                        <div class="d-flex justify-content-around mb-4">
+                            <h3 class="card-price">70 <sub>EGP</sub></h3>
+                            <button class="btn btn-light">Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" data-aos="fade-up">
+                        <img src="photo/habesha.jpg" class="card-img-top" alt="حبيشه">
+                        <div class="card-body">
+                            <h5 class="card-title"> <img class="spicy" src="photo/food.png" alt="">الحبيشه</h5>
+                            <p class="card-text"></p>
+                        </div>
+                        <div class="d-flex justify-content-around mb-4">
+                            <h3 class="card-price">85 <sub>EGP</sub></h3>
+                            <button class="btn btn-light">Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" data-aos="fade-up">
+                        <img src="photo/boomp.jpg" class="card-img-top" alt="صاروخ">
+                        <div class="card-body">
+                            <h5 class="card-title">الصاروخ</h5>
+                            <p class="card-text"></p>
+                        </div>
+                        <div class="d-flex justify-content-around mb-4">
+                            <h3 class="card-price">75 <sub>EGP</sub></h3>
+                            <button class="btn btn-light">Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" data-aos="fade-up">
+                        <img src="photo/mazag.jpg" class="card-img-top" alt="مزاج">
+                        <div class="card-body">
+                            <h5 class="card-title">المزاج</h5>
+                            <p class="card-text"></p>
+                        </div>
+                        <div class="d-flex justify-content-around mb-4">
+                            <h3 class="card-price">85 <sub>EGP</sub></h3>
+                            <button class="btn btn-light">Details</button>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <!--================ end ala kifak ===================-->
+    <!--=================== start mix ============================-->
+    <div class="container py-5">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+            <a class="link-show-all" href="">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
+                    <path
+                        d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0m3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z" />
+                </svg>
+                <span class="text-left link-show-all">عرض الكل</span>
+            </a>
+            <h1 class="text-end"">الميكس</h1>
+        </div>
+        <div class=" row roow-cols-1 row-cols-md-4 g-4 py-5">
+                <div class="col">
+                    <div class="card" data-aos="fade-up">
+                        <img src="photo/pane-hotdog.jpg" class="card-img-top" alt="بانيه سوسيس">
+                        <div class="card-body">
+                            <h5 class="card-title">بانيه & سوسيس</h5>
+                            <p class="card-text"></p>
+                        </div>
+                        <div class="d-flex justify-content-around mb-4">
+                            <h3 class="card-price">60 <sub>EGP</sub></h3>
+                            <button class="btn btn-light">Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" data-aos="fade-up">
+                        <img src="photo/crispy-hotdog.jpg" class="card-img-top" alt="كرسبي علي سوسيس">
+                        <div class="card-body">
+                            <h5 class="card-title">كرسبي & سوسيس</h5>
+                            <p class="card-text"></p>
+                        </div>
+                        <div class="d-flex justify-content-around mb-4">
+                            <h3 class="card-price">55 <sub>EGP</sub></h3>
+                            <button class="btn btn-light">Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" data-aos="fade-up">
+                        <img src="photo/mix-meat.jpg" class="card-img-top" alt="ستي كريب لحم">
+                        <div class="card-body">
+                            <h5 class="card-title">سيتي كريب لحم</h5>
+                            <p class="card-text"></p>
+                        </div>
+                        <div class="d-flex justify-content-around mb-4">
+                            <h3 class="card-price">55 <sub>EGP</sub></h3>
+                            <button class="btn btn-light">Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" data-aos="fade-up">
+                        <img src="photo/monestar.jpg" class="card-img-top" alt="سيتي كريب فراخ">
+                        <div class="card-body">
+                            <h5 class="card-title">سيتي كريب فراغ</h5>
+                            <p class="card-text"></p>
+                        </div>
+                        <div class="d-flex justify-content-around mb-4">
+                            <h3 class="card-price">55 <sub>EGP</sub></h3>
+                            <button class="btn btn-light">Details</button>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <!--  -->
+    <!--  -->
+    <div class="container py-5">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+            <a class="link-show-all" href="">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
+                    <path </svg>
+            </a>
+            <h1 class="text-end"">سي فود</h1>
+        </div>
+        <div class=" row roow-cols-1 row-cols-md-4 g-4 py-5">
+                <div class="col">
+                    <div class="card" data-aos="fade-up">
+                        <img src="photo/tuna.jpg" class="card-img-top" alt="كرسبي">
+                        <div class="card-body">
+                            <h5 class="card-title">تونه</h5>
+                            <p class="card-text"></p>
+                        </div>
+                        <div class="d-flex justify-content-around mb-4">
+                            <h3 class="card-price">55 EGP</h3>
+                            <button class="btn btn-light">Details</button>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <!--  -->
+    <!--  -->
+    <div class="container py-5">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+            <a class="link-show-all" href="">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
+                    <path
+                        d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0m3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z" />
+                </svg>
+            </a>
+            <h1 class="text-end"">البطاطس</h1>
+        </div>
+        <div class=" row roow-cols-1 row-cols-md-4 g-4 py-5">
+                <div class="col">
+                    <div class="card" data-aos="fade-up">
+                        <img src="photo/packet.jpg" class="card-img-top" alt="كرسبي">
+                        <div class="card-body">
+                            <h5 class="card-title">باكيت</h5>
+                            <p class="card-text"></p>
+                        </div>
+                        <div class="d-flex justify-content-around mb-4">
+                            <h3 class="card-price">55 <sub>EGP</sub></h3>
+                            <button class="btn btn-light">Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" data-aos="fade-up">
+                        <img src="photo/fries.jpg" class="card-img-top" alt="بانيه">
+                        <div class="card-body">
+                            <h5 class="card-title">بطاطس</h5>
+                            <p class="card-text"></p>
+                        </div>
+                        <div class="d-flex justify-content-around mb-4">
+                            <h3 class="card-price">55 <sub>EGP</sub></h3>
+                            <button class="btn btn-light">Details</button>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <!--  -->
+    <!--  -->
+    <div class="container py-5">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+            <a class="link-show-all" href="">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor">
+                    class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
+                    <path
+                        d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0m3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z" />
+                </svg>
+                <span class="text-left link-show-all">عرض الكل</span>
+            </a>
+            <h1 class="text-end""> السوري <small>الحلميه فقط</small></h1>
+        </div>
+        <div class=" row roow-cols-1 row-cols-md-4 g-4 py-5">
+                <div class="col">
+                    <div class="card" data-aos="fade-up">
+                        <img src="photo/crispy.jpg" class="card-img-top" alt="كرسبي">
+                        <div class="card-body">
+                            <h5 class="card-title">كرسبي</h5>
+                            <p class="card-text"></p>
+                        </div>
+                        <div class="d-flex justify-content-around mb-4">
+                            <h3 class="card-price">55 EGP</h3>
+                            <button class="btn btn-light">Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" data-aos="fade-up">
+                        <img src="photo/pane.jpg" class="card-img-top" alt="بانيه">
+                        <div class="card-body">
+                            <h5 class="card-title">بانيه</h5>
+                            <p class="card-text"></p>
+                        </div>
+                        <div class="d-flex justify-content-around mb-4">
+                            <h3 class="card-price">55 EGP</h3>
+                            <button class="btn btn-light">Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" data-aos="fade-up">
+                        <img src="photo/strips.jpg" class="card-img-top" alt="ستربس">
+                        <div class="card-body">
+                            <h5 class="card-title">ستربس</h5>
+                            <p class="card-text"></p>
+                        </div>
+                        <div class="d-flex justify-content-around mb-4">
+                            <h3 class="card-price">55 EGP</h3>
+                            <button class="btn btn-light">Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" data-aos="fade-up">
+                        <img src="photo/katyuosha.jpg" class="card-img-top" alt="كت">
+                        <div class="helf-body">
+                            <div class="card-body">
+                                <h5 class="card-title">كتيوشه</h5>
+                                <p class="card-text"></p>
+                            </div>
+                            <div class="d-flex justify-content-around mb-4">
+                                <h3 class="card-price">55 EGP</h3>
+                                <button class="btn btn-light">Details</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <!--  -->
+    <!--  -->
+    <!--  -->
+    <div class="container py-5">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+            <a class="link-show-all" href="">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor">
+                    class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
+                    <path
+                        d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0m3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z" />
+                </svg>
+                <span class="text-left link-show-all">عرض الكل</span>
+            </a>
+            <h1 class="text-end">كريب الطاقه</h1>
+        </div>
+        <div class=" row roow-cols-1 row-cols-md-4 g-4 py-5">
+                <div class="col">
+                    <div class="card" data-aos="fade-up">
+                        <img src="photo/nutella (Custom).jpg" class="card-img-top" alt="كرسبي">
+                        <div class="card-body">
+                            <h5 class="card-title">نيوتيلا</h5>
+                            <p class="card-text"></p>
+                        </div>
+                        <div class="d-flex justify-content-around mb-4">
+                            <h3 class="card-price">55 <sub>EGP</sub></h3>
+                            <button class="btn btn-light">Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" data-aos="fade-up">
+                        <img src="photo/luttes (Custom).jpg" class="card-img-top" alt="بانيه">
+                        <div class="card-body">
+                            <h5 class="card-title">بانيه</h5>
+                            <p class="card-text"></p>
+                        </div>
+                        <div class="d-flex justify-content-around mb-4">
+                            <h3 class="card-price">55 EGP</h3>
+                            <button class="btn btn-light">Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" data-aos="fade-up">
+                        <img src="photo/Tartines croustillantes choco-banane au gaufrier _ RICARDO (Custom).jpeg"  class="card-img-top" alt="ستربس">
+
+                        <div class="card-body">
+                            <h5 class="card-title">ستربس</h5>
+                            <p class="card-text"></p>
+                        </div>
+                        <div class="d-flex justify-content-around mb-4">
+                            <h3 class="card-price">55 EGP</h3>
+                            <button class="btn btn-light">Details</button>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <!--  -->
+    <!-- Remove the container if you want to extend the Footer to full width. -->
+
+
+    <footer class="text-center text-white" style="background-color: rgb(175, 139, 85);">
+        <!-- Grid container -->
+        <div class="container pt-4">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                <!-- Facebook -->
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+                    data-mdb-ripple-color="dark"><i class="fab fa-facebook-f"></i></a>
+
+                <!-- Twitter -->
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1"
+                    href="https://www.tiktok.com/@city_crepe_officially?is_from_webapp=1&sender_device=pc" role="button"
+                    data-mdb-ripple-color="dark"><i class="fab fa-tiktok"></i></a>
+
+                <!-- Instagram -->
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+                    data-mdb-ripple-color="dark"><i class="fab fa-instagram"></i></a>
+
+            </section>
+            <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center text-light p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2023 Copyright:
+            <a class="text-light">City Crepe</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- End of .container -->
+
+
+
+
+    <!-- End of .container -->
+    <!-- cards -->
+    <!-- script  -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="home.js"></script>
+    <script>
+        AOS.init({
+            duration: 300, // مدة التأثير بالمللي ثانية
+            easing: 'ease-in-out', // نمط التسارع
+            offset: 80, // تعويض إضافي لبدء التأثير
+            delay: 100, // تأخير قبل بدء التأثير
+        });
+    </script>
+
+
+
+
+</body>
+
+</html>
